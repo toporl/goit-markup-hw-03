@@ -356,6 +356,7 @@ ul {
 .project-link {
   text-decoration: none;
 }
+
 .project-title {
   margin: 20px 24px 0;
   color: var(--main-text-color);
@@ -366,7 +367,7 @@ ul {
 }
 
 .project-desk {
-  margin: 4px 24px 0;
+  margin: 4px 24px 20px;
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.88;
