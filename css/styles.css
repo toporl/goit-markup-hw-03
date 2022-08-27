@@ -74,9 +74,12 @@ ul {
 
 /* navigation */
 
+.nav {
+  margin-left: 93px;
+}
+
 .site-nav {
   display: flex;
-  margin-left: 93px;
   padding-left: 0;
 }
 
@@ -122,9 +125,7 @@ ul {
 /* hero */
 
 .hero {
-  height: 600px;
-  padding-top: 200px;
-  padding-bottom: 280px;
+  padding: 200px 0;
   background-color: #2f303a;
 }
 .hero-title {
@@ -175,7 +176,6 @@ ul {
 
 .features {
   display: flex;
-  width: 1170px;
 }
 
 .fearures-subtitle:not(:first-child) {
@@ -210,12 +210,22 @@ ul {
 
 /* activity */
 
+.act {
+  padding-top: 0;
+}
+
 .activity {
   display: flex;
 }
 
 .activity-img:not(:first-child) {
   margin-left: 30px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* our team */
@@ -243,7 +253,6 @@ ul {
 }
 
 .name {
-  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -253,7 +262,6 @@ ul {
 
 .position {
   margin-top: 10px;
-  margin-bottom: 30px;
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.19;
@@ -261,6 +269,10 @@ ul {
   text-align: center;
 }
 
+.description {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 /* footer */
 
 .footer {
@@ -280,6 +292,10 @@ ul {
   text-decoration: none;
 }
 
+.address {
+  margin-top: 20px;
+}
+
 .address-link {
   color: var(--white-text-color);
   font-size: 14px;
@@ -297,11 +313,8 @@ ul {
   font-style: normal;
   text-decoration: none;
 }
-.contacts-footer {
-  margin-top: 20px;
-}
 
-.footer-adress:not(:first-child) {
+.footer-address:not(:first-child) {
   margin-top: 9px;
 }
 
@@ -312,7 +325,6 @@ ul {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
-  height: 54px;
 }
 
 .filters-button:not(:first-child) {
@@ -349,8 +361,6 @@ ul {
 .project-item {
   flex-basis: calc((100% - 30px * 2) / 3);
   width: 370px;
-  background: #ffffff;
-  border: 1px solid #eee;
 }
 
 .project-link {
@@ -358,7 +368,6 @@ ul {
 }
 
 .project-title {
-  margin: 20px 24px 0;
   color: var(--main-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -366,8 +375,14 @@ ul {
   letter-spacing: 0.06em;
 }
 
+.project-disription {
+  padding: 20px 24px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
 .project-desk {
-  margin: 4px 24px 20px;
+  margin-top: 4px;
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.88;

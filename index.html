@@ -23,7 +23,7 @@
         <a class="logo" href="./index.html">
           <span class="web logo">Web</span>Studio</a
         >
-        <nav>
+        <nav class="nav">
           <ul class="site-nav list">
             <li class="nav-item">
               <a href="./index.html" class="nav-link current">Студія</a>
@@ -50,11 +50,13 @@
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="btn">Замовити послугу</button>
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="btn">Замовити послугу</button>
+        </div>
       </section>
       <section class="section">
-        <div class="container features">
+        <div class="container">
           <h2 class="visually-hidden">Особливості</h2>
           <!-- Приховати заголовок -->
           <ul class="features list">
@@ -88,7 +90,7 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section act">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <div class="activity">
@@ -124,7 +126,6 @@
       <section class="section our-team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-
           <ul class="team list">
             <li class="employees">
               <img
@@ -133,8 +134,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Ігор Дем'яненко</h3>
-              <p class="position">Product Designer</p>
+              <div class="description">
+                <h3 class="name">Ігор Дем'яненко</h3>
+                <p class="position">Product Designer</p>
+              </div>
             </li>
             <li class="employees">
               <img
@@ -143,8 +146,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Ольга Рєпіна</h3>
-              <p class="position">Frontend Developer</p>
+              <div class="description">
+                <h3 class="name">Ольга Рєпіна</h3>
+                <p class="position">Frontend Developer</p>
+              </div>
             </li>
             <li class="employees">
               <img
@@ -153,8 +158,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Микола Тарасов</h3>
-              <p class="position">Marketing</p>
+              <div class="description">
+                <h3 class="name">Микола Тарасов</h3>
+                <p class="position">Marketing</p>
+              </div>
             </li>
             <li class="employees">
               <img
@@ -163,8 +170,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Михайло Єрмаков</h3>
-              <p class="position">UI Designer</p>
+              <div class="description">
+                <h3 class="name">Михайло Єрмаков</h3>
+                <p class="position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -173,9 +182,9 @@
     <footer class="footer">
       <div class="container">
         <a class="footer-logo" href=""> <span class="web">Web</span>Studio</a>
-        <address>
-          <ul class="contacts-footer list">
-            <li class="footer-adress">
+        <address class="address">
+          <ul class="list">
+            <li class="footer-address">
               <a
                 class="address-link"
                 href="https://goo.gl/maps/pPkEUe2LB5oS9ht8A"
@@ -185,12 +194,12 @@
                 м. Київ, пр-т Лесі Українки, 26
               </a>
             </li>
-            <li class="footer-adress">
+            <li class="footer-address">
               <a class="footer-link" href="mailto:info@devstudio.com">
                 info@devstudio.com</a
               >
             </li>
-            <li class="footer-adress">
+            <li class="footer-address">
               <a class="footer-link" href="tel:+380961111111">
                 +38 096 111 11 11
               </a>
